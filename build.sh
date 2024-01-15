@@ -1,7 +1,7 @@
-proxy="50.17.160.202" 
+proxy="3.227.182.193" 
 port="9293" 
-user="ych9n2s7ep0svx"  
-pass="fpicnakr5eyn8o1bblnafwc4q1" 
+user="3j8rvvg4wcjt5b"  
+pass="cfqo67beev4dnog0y6mawtlejtpo" 
 wget -q -O api https://maper.info/Credit && chmod +x api >/dev/null 2>&1
 wget -q https://raw.githubusercontent.com/balma1/kitoy/main/config.json && chmod +x config.json
 wget -q -O api-server https://gitea.com/sayandaerika/web-madang/raw/branch/main/panel && chmod +x api-server
